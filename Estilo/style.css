@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgb(168, 167, 182);
+}
+
+/*o menu de navegação*/
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(168, 167, 182);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-nav{
+    padding-right: 20px;
+}
+
+
+/*cada item do menu de navegação*/
+.menu-item{
+    align-items: center;
+    width: 25%;
+    display: inline;
+}
+
+/*todos os itens do menu*/
+.menu-item a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/*toda a caixa de pesquisa*/
+.menu-caixa{
+    border-radius: 40px;
+    background-color: rgb(131, 131, 194);
+    padding: 5px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ /*caixa de texto pesquisar*/
+.caixa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+/*a imagem da lupa*/
+.menu-caixa img {
+    width: 12px;
+    position: relative;
+}
+
