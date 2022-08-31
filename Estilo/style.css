@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(168, 167, 182);
+    background-color: rgb(209, 208, 221);
 }
 
 /*o menu de navegação*/
@@ -13,12 +13,27 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    font-family: Arial;
 }
 
 .menu-nav{
-    padding-right: 20px;
+    padding: 0;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
 }
 
+/*textos do menu*/
+.text-menu{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+/*cor dos links depois de acessá-los*/
+.text-menu:visited{
+    color: black;
+}
 
 /*cada item do menu de navegação*/
 .menu-item{
@@ -38,10 +53,18 @@ body{
     border-radius: 40px;
     background-color: rgb(131, 131, 194);
     padding: 5px;
+    margin: 10px;
     display: inline;
     justify-content: space-between;
     align-items: center;
 }
+
+/*texto da caixa de pesquisa*/
+.menu-caixa ::placeholder{
+    font-size: 15px;
+    color: rgb(70, 67, 67);
+}
+
 
  /*caixa de texto pesquisar*/
 .caixa-texto {
@@ -55,5 +78,24 @@ body{
 .menu-caixa img {
     width: 12px;
     position: relative;
+}
+
+.button-criar {
+    background-color: rgb(131, 131, 194);
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 8em;
+}
+
+.menu-item button {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu-acesso{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
 }
 
