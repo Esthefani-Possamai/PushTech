@@ -1,6 +1,18 @@
 
-body{
-    background-color: rgb(209, 208, 221);
+
+html {
+    background: rgb(0,27,36);
+    /*background: linear-gradient(180deg, rgba(0,27,36,1) 11%, rgba(9,42,53,1) 86%, rgba(6,51,66,1) 98%);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.logo{
+    border: none;
+    margin-top: 10px;
 }
 
 /*o menu de navegação*/
@@ -9,12 +21,12 @@ body{
     padding: 0;
     text-align: center;
     align-items: center;
-    background-color: rgb(168, 167, 182);
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: Arial;
 }
+
 
 .menu-nav{
     padding: 0;
@@ -23,17 +35,34 @@ body{
     align-items: center;
 }
 
+.objetivos{
+    padding-top: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.objetivos li {
+    padding: 15px;
+    width: 20%;
+    display: inline;
+}
+
+
+
 /*textos do menu*/
 .text-menu{
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: rgb(235, 242, 245);
 }
 
 /*cor dos links depois de acessá-los*/
 .text-menu:visited{
-    color: black;
+    color: rgb(235, 242, 245);
 }
+
+
 
 /*cada item do menu de navegação*/
 .menu-item{
@@ -51,7 +80,7 @@ body{
 /*toda a caixa de pesquisa*/
 .menu-caixa{
     border-radius: 40px;
-    background-color: rgb(131, 131, 194);
+    background-color: #557985;
     padding: 5px;
     margin: 10px;
     display: inline;
@@ -62,7 +91,7 @@ body{
 /*texto da caixa de pesquisa*/
 .menu-caixa ::placeholder{
     font-size: 15px;
-    color: rgb(70, 67, 67);
+    color: rgb(235, 242, 245);
 }
 
 
@@ -72,6 +101,8 @@ body{
     background: none;
     outline: none;
     padding-left: 10px;
+    color: rgb(235, 242, 245);
+    font-size: 15px;
 }
 
 /*a imagem da lupa*/
@@ -81,7 +112,7 @@ body{
 }
 
 .button-criar {
-    background-color: rgb(131, 131, 194);
+    background-color: #557985;
     border-radius: 10px;
     border: none;
     padding: 5px;
@@ -91,11 +122,32 @@ body{
 .menu-item button {
     font-size: 18px;
     text-decoration: none;
+    color: rgb(235, 242, 245);
 }
 
 .menu-acesso{
     display: inline;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
+}
+
+.section-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.section-1 div{
+    width: 50%;
+}
+
+.section-1 img{
+    width: 60%;
+    
 }
 
