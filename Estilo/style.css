@@ -10,6 +10,10 @@ html {
     color: white;
 }
 
+button{
+    cursor: pointer;
+}
+
 .logo{
     border: none;
     margin-top: 10px;
@@ -37,6 +41,7 @@ html {
 
 .objetivos{
     padding-top: 40px;
+    padding-left: 0;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -148,6 +153,78 @@ html {
 
 .section-1 img{
     width: 60%;
-    
 }
+
+/*Cursos*/
+
+.cursos{
+    display: flex;
+    padding: 40px;
+    margin: 0;
+    justify-content: space-around
+}
+
+.item-cursos{
+    width: 20%;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px white;
+    padding: 20px;
+}
+
+/*Banner*/
+
+.banner{
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.banner img{
+    width: 40%;
+    padding: 10px;
+}
+
+.button-banner{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    border: solid 2px white;
+    text-align: left;
+}
+
+.nav-rodape{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.rodape-section{
+    width: 30%;
+    padding: 5px;
+    margin: 0;
+}
+
+footer section ul{
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+
 
