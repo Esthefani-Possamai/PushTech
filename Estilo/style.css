@@ -166,11 +166,27 @@ button{
 
 .item-cursos{
     width: 20%;
-    display: inline;
+    display: inline-block;
     justify-content: center;
     text-align: center;
+    align-items: center;
     border: solid 2px white;
+    margin: 0;
     padding: 20px;
+}
+
+/*Eventos*/
+
+.eventoss{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    border: solid 2px white;
+    text-align: left;
 }
 
 /*Banner*/
@@ -222,6 +238,7 @@ button{
 footer section ul{
     padding: 10px;
     margin: 5px;
+    list-style: none;
 }
 
 
