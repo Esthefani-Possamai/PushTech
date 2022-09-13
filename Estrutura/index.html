@@ -11,55 +11,55 @@
 </head>
 
 <body>
-    <header>
-        <nav class="menu">
-
-            <!--Logo da Plataforma-->
-            <div><a class="text-menu" href="index.html"><img class="logo" src="../Imagens/logo.png" alt="Logo da plataforma"></a></div>
+    <div id="gradient-container">
+        <header>
+            <nav class="menu">
+                <!--Logo da Plataforma-->
+                <div><a class="text-menu" href="index.html"><img class="logo" src="../Imagens/logo.png" alt="Logo da plataforma"></a></div>
         
-            <!--Início, Formações, Eventos, Apoiadores e a caixa de pesquisa-->
-            <ul class="menu-nav">
-                <li class="menu-item"><a class="text-menu" href="#">Início</a></li>
-                <li class="menu-item"><a class="text-menu" href="#">Formações</a></li>
-                <li class="menu-item"><a class="text-menu" href="#">Eventos</a></li>
-                <li class="menu-item"><a class="text-menu" href="#">Apoiadores</a></li>
-                <li class="menu-item">
-                    <div class="menu-caixa">
-                        <input class="caixa-texto" type="text" placeholder="Pesquisar">
-                        <a class="botao-lupa" href="#">
-                            <img src="../Imagens/loupe.png" alt="Lupa">
-                        </a>
-                    </div>
-                </li>
-            </ul>
-            <!--Entrar e Criar Conta-->
-            <div>
-                <ul class="menu-acesso">
-                    <li class="menu-item"><a class="text-menu" href="#">Entrar</a></li>
+                <!--Início, Formações, Eventos, Apoiadores e a caixa de pesquisa-->
+                <ul class="menu-nav">
+                    <li class="menu-item"><a class="text-menu" href="#">Início</a></li>
+                    <li class="menu-item"><a class="text-menu" href="#">Formações</a></li>
+                    <li class="menu-item"><a class="text-menu" href="#">Eventos</a></li>
+                    <li class="menu-item"><a class="text-menu" href="#">Apoiadores</a></li>
                     <li class="menu-item">
-                        <div class="menu-item">
-                            <a href=""><button class="button-criar" type="button">Criar conta</button></a>
+                        <div class="menu-caixa">
+                            <input class="caixa-texto" type="search" placeholder="Pesquisar">
+                            <a class="botao-lupa" href="#">
+                                <img src="../Imagens/loupe.png" alt="Lupa">
+                            </a>
                         </div>
                     </li>
                 </ul>
-            </div>
-        
-        </nav>
-    </header>
-
-    <main>
-        <article>
-            <section class="section-1">
+                <!--Entrar e Criar Conta-->
                 <div>
-                    <h2>Impulse seu conhecimento do mundo tech_</h2>
-                    <p>Uma plataforma gratuita de ensino de tecnologia para você dar um push em sua jornada</p>
+                    <ul class="menu-acesso">
+                        <li class="menu-item"><a class="text-menu" href="#">Entrar</a></li>
+                        <li class="menu-item">
+                            <div class="menu-item">
+                                <a href=""><button class="button-criar" type="button">Criar conta</button></a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div><img src="../Imagens/imginicio.png" alt="imagem-1"></div>
-            </section>
-        </article>
+        
+            </nav>
+        </header>
+        <main>
+            <article>
+                <section class="section-1">
+                    <div>
+                        <h2>Impulse seu conhecimento do mundo tech_</h2>
+                        <p>Uma plataforma gratuita de ensino de tecnologia para você dar um push em sua jornada</p>
+                    </div>
+                    <div><img src="../Imagens/imginicio.png" alt="imagem-1"></div>
+                </section>
+            </article>
+    </div>
 
         <!--OBJETIVOS-->
-        <article>
+        <article id="id-objetivos">
             <section>
 
                 <ul class="objetivos">
@@ -130,40 +130,43 @@
         </article>
 
         <!--seção para as depoimentos-->
-        <article class>
-            <section>
+        <article class="itemdepoimentos">
+            <section class="depoimentos">
                 <p>O resultado não poderia ser diferente</p>
                 <h3>Uma plataforma que impulsiona!</h3>
                 <p>10 cursos completos e alunos de todo o Brasil aprendendo diariamente</p>
             </section>
-            <section> <!--seção para os depoimentos-->
-                <p>"Aprendi muito e de maneira rápida, realizei os projetos propostos e alavan=quei minha carreira e meus estudos. Só tenho a agradecer a toda a equipe da Push Tech por tornar isso possível!"</p>
-                <div>
-                    <img src="../Imagens/woman.png" alt="Imagem-da-pessoa.empresa">
-                </div>
-                <div>
-                    <h4>Esthéfani Possamai</h4>
-                    <p>Acadêmica e Desenvolvedora Front-endS</p>
-                </div>
-            </section>
 
-            <section> <!--seção para os depoimentos-->
-                <p>"A estrutura do curso foi fundamental para o meu crescimento e para poder entender como aquelas linhas de código faziam sentido, ajudando-me também nas disciplinas da graduação. Obrigado equipe da Push!"</p>
-                <div>
-                    <img src="../Imagens/man.png" alt="Imagem-da-pessoa.empresa">
-                </div>
-                <div>
-                    <h4>Luís Felipe Ceron</h4>
-                    <p>Acadêmico de Ciência da Computação</p>
-                </div>
-            </section>
+            <article class="depoimentos">
+                <section class="dep-item"> <!--seção para os depoimentos-->
+                    <p>"Aprendi muito e de maneira rápida, realizei os projetos propostos e alavan=quei minha carreira e meus estudos. Só tenho a agradecer a toda a equipe da Push Tech por tornar isso possível!"</p>
+                    <div>
+                        <img src="../Imagens/woman.png" alt="Imagem-da-pessoa.empresa">
+                    </div>
+                    <div>
+                        <h4>Esthéfani Possamai</h4>
+                        <p>Acadêmica e Desenvolvedora Front-end</p>
+                    </div>
+                </section>
+
+                <section class="dep-item"> <!--seção para os depoimentos-->
+                    <p>"A estrutura do curso foi fundamental para o meu crescimento e para poder entender como aquelas linhas de código faziam sentido, ajudando-me também nas disciplinas da graduação. Obrigado equipe da Push!"</p>
+                    <div>
+                        <img src="../Imagens/man.png" alt="Imagem-da-pessoa.empresa">
+                    </div>
+                    <div>
+                        <h4>Luís Felipe Ceron</h4>
+                        <p>Acadêmico de Ciência da Computação</p>
+                    </div>
+                </section>
+            </article>
 
         </article>
 
 
-        <article>
+        <article class="incentivo">
             <section>
-                <div><img src="../Imagens/incentivo.png" alt="imagem"></div>
+                <div><img src="../Imagens/gif3.gif" alt="imagem"></div>
                 <div>
                     <h2>Mais de 1000 estudantes conectados com a PushTech.</h2>
                     <p>Não perca a oportunidade de começar agora mesmo a sua jornada dev!</p>
