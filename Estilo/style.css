@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&family=Zilla+Slab:wght@300;400&display=swap');
 
 html {
     background: rgb(0,27,36);
@@ -9,23 +10,31 @@ html {
 
 body{
     margin-left: 0;
-    margin-top: 10px;
-    margin-right: 0;
+    margin-right: 0px;
     margin-bottom: 10px;
+    margin-top: 0px;
+    font-family:'Poppins', sans-serif;
+    overflow-x:hidden;
 }
-
+h2, 
+h3, h3{
+    font-family: 'Roboto Mono', monospace;
+}
 #gradient-container{
     /*background: linear-gradient(180deg, rgba(0,27,36,1) 11%, rgba(9,42,53,1) 86%, rgba(6,51,66,1) 98%);*/
-    background: rgb(0,27,36);
-background: linear-gradient(180deg, rgba(0,27,36,1) 13%, rgba(3,37,49,1) 46%, rgba(12,78,100,1) 100%);
+
+    /* background: rgb(0,27,36);
+    background: linear-gradient(180deg, rgba(0,27,36,1) 13%, rgba(3,37,49,1) 46%, rgba(12,78,100,1) 100%); */
     background-repeat: no-repeat;
     background-size: cover;
-
-    
+    background-image: url(../Imagens/metaversoo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: top right;    
 }
 
 #id-objetivos {
-    background-color: #5767ed;
+    background-color: white;
     border: 0;
     margin: 0;
     width: 100%;
@@ -43,8 +52,8 @@ button{
 
 /*o menu de navegação*/
 .menu {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 1% 0% 0% 0%;
     border: 0;
     text-align: center;
     align-items: center;
@@ -60,6 +69,7 @@ button{
     display: inline;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
 }
 
 .objetivos{
@@ -85,11 +95,13 @@ button{
     text-decoration: none;
     font-size: 18px;
     color: rgb(235, 242, 245);
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*cor dos links depois de acessá-los*/
 .text-menu:visited{
     color: rgb(235, 242, 245);
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -99,12 +111,14 @@ button{
     align-items: center;
     width: 25%;
     display: inline;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*todos os itens do menu*/
 .menu-item a {
     padding: 10px;
     display: inline-block;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*toda a caixa de pesquisa*/
@@ -116,6 +130,7 @@ button{
     display: inline;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*texto da caixa de pesquisa*/
@@ -133,6 +148,7 @@ button{
     padding-left: 10px;
     color: rgb(235, 242, 245);
     font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*a imagem da lupa*/
@@ -160,17 +176,21 @@ button{
     justify-content: space-between;
     align-items: center;
     padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .section-1{
     width: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    text-align: center;
+    height: 100vh;
+    align-items: left;
+    margin-top: 6%;
+    padding: 5% 0%;
+    text-align: left;
     justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    
 }
 
 .section-1 div{
@@ -178,7 +198,14 @@ button{
 }
 
 .section-1 img{
-    width: 60%;
+    width: 40%;
+    margin-right: 6%;
+}
+
+.logo-frase{
+    width: 30%;
+    margin: 2% 0% 2% 10%;
+    text-align: left;
 }
 
 /*Cursos*/
@@ -197,24 +224,79 @@ button{
     text-align: center;
     align-items: center;
     border: solid 2px white;
+    border-radius: 20px;
+    background-color: white;
     margin: 0;
     padding: 20px;
+    color: black;
+    margin: 5% 0.5%;
+    box-shadow: 2px 1px 6px 1px black;
 }
 
+.item-cursos-img img {
+    width: 100%;   
+}
+
+.button-cursos {
+    border-radius: 20px;
+    padding: 2%;
+    width: 50%;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    border: 1px solid grey;
+    background-color: none;
+}
 /*Depoimentos*/
 
 .itemdepoimentos{
     display: flex;
-    padding: 40px;
+    padding: 1%;
     align-items: center;
     align-content: center;
     text-align: center;
+    background-image: #557985;
+    justify-content: center;
+    margin-right: 8%;
 }
 
 .depoimentos{
-    width: 50%;
+    width: 80%;
     text-align: left;
-    
+    margin-left: 8%;
+    display: inline;
+    align-items: center;
+}
+
+.dep-item-1, .dep-item-2 {
+    /* border: 1px solid white; */
+    box-shadow: 2px 1px 6px 1px rgba(255, 255, 255, 0.171);
+    background-color: rgba(255, 255, 255, 0.041);
+    text-align: left;
+    padding: 5%;
+    margin-bottom: 8%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.dep-item-1 img, .dep-item-2 img{
+    width: 180px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+
+
+.dep-item-1 {
+    margin-right: 15%;
+    -webkit-border-radius: 0px 60px 0px 60px;
+}
+
+
+.dep-item-2 {
+    margin-left: 15%;
+    -webkit-border-radius: 0px 60px 0px 60px;
+    margin-bottom: 20%;
 }
 
 /*Incentivo*/
@@ -225,28 +307,29 @@ button{
     align-items: center;
     align-content: center;
     text-align: center;
-    background-color: black;
-    /*background-color: #000A0E;*/
-    
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 60vh;  
+    margin-bottom: 5%;
 }
 
 .incentivo img{
-   width: 50%;
-   height: 50%;
+   width: 90%;
    text-align: left;
+   align-content: center;
+   display: flex;
+   margin-right: 0px;
 }
 
 .incentivo section{
     display: flex;
     align-items: center;
     align-content: center;
-    text-align: center;
-    justify-content: space-evenly
+    text-align: left;
+    margin-right: 5%;
 }
 
-.incentivo section div{
-    
-}
 
 /*Eventos*/
 
@@ -254,12 +337,24 @@ button{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    margin: 0;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    width: 100%;
-    border: solid 2px white;
+    width: 90%;
     text-align: left;
+    margin: 0% 5%;
+    align-content: center;
+    align-items: center;
+}
+
+.eventoss section{
+    padding: 2%;
+}
+
+.img-eventos {
+    width: 70%;
+}
+
+.img-eventos-1 {
+    width: 90%;
+    margin-top: 20px;
 }
 
 /*Banner*/
@@ -293,6 +388,7 @@ button{
     width: 100%;
     border: solid 2px white;
     text-align: left;
+    font-family:'Poppins', sans-serif;
 }
 
 .nav-rodape{
@@ -312,6 +408,11 @@ footer section ul{
     padding: 10px;
     margin: 5px;
     list-style: none;
+}
+
+.nav-rodape h3{  
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
 }
 
 
