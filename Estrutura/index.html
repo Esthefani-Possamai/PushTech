@@ -23,27 +23,16 @@
                     <li class="menu-item"><a class="text-menu" href="#">Formações</a></li>
                     <li class="menu-item"><a class="text-menu" href="#">Eventos</a></li>
                     <li class="menu-item"><a class="text-menu" href="#">Apoiadores</a></li>
+                </ul>
+                <ul class="menu-acesso">
+                    <li class="menu-item"><a class="text-menu" href="#">Entrar</a></li>
                     <li class="menu-item">
-                        <div class="menu-caixa">
-                            <input class="caixa-texto" type="search" placeholder="Pesquisar">
-                            <a class="botao-lupa" href="#">
-                                <img src="../Imagens/loupe.png" alt="Lupa">
-                            </a>
+                        <div class="menu-item">
+                            <a href=""><button class="button-criar" type="button">Criar conta</button></a>
                         </div>
                     </li>
                 </ul>
-                
-                <div>
-                    <ul class="menu-acesso">
-                        <li class="menu-item"><a class="text-menu" href="#">Entrar</a></li>
-                        <li class="menu-item">
-                            <div class="menu-item">
-                                <a href=""><button class="button-criar" type="button">Criar conta</button></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-        
+    
             </nav>
         </header>
         <main>
@@ -88,25 +77,33 @@
         <article class="cursos">
             <section class="item-cursos">
                 <div class="item-cursos-img">
-                    <img src="../Imagens/html.svg" alt="img">
-                    <h3>Front-end</h3>
-                    <p>HTML5 | CSS3 | React | Angular | JavaScript | jQuery | Responsividade | Acessibilidade na web | Next.JS</p>
+                    <img class="img-curso-1" src="../Imagens/front-end.svg" alt="img">
+                    <div>
+                        <h3>Front-end</h3>
+                        <p>HTML5 | CSS3 | React | Angular | JavaScript | jQuery | Responsividade | Acessibilidade na web | Next.JS</p>
+                    </div>
                 </div>
-                <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
+                <div class="div-cursos">
+                    <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
+                </div>
                 <button class="button-cursos">Acesse</button>
             </section>
 
             <section class="item-cursos">
                 <div class="item-cursos-img">
-                    <img src="../Imagens/uxdesign.svg" alt="img">
-                    <h3>UI/UX & Design</h3>
-                    <p>Canvas | Design Gráfico | Blender | Adobe XD | Adobe Mobile | Desenho básico | Desenvolvimento de carreira</p>
+                    <img class="img-curso-2" src="../Imagens/uxdesign.svg" alt="img">
+                    <div>
+                        <h3>UI/UX & Design</h3>
+                        <p>Canvas | Design Gráfico | Blender | Adobe XD | Adobe Mobile | Desenho básico | Desenvolvimento de carreira</p>
+                    </div>
                 </div>
-                <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
+                <div class="div-cursos">
+                    <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
+                </div>
                 <button class="button-cursos">Acesse</button>
             </section>
 
-            <section class="item-cursos">
+            <!-- <section class="item-cursos">
                 <div class="item-cursos-img">
                     <img src="#" alt="img">
                     <h3>Banco de Dados</h3>
@@ -114,15 +111,19 @@
                 </div>
                 <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
                 <button class="button-cursos">Acesse</button>
-            </section>
+            </section> -->
 
             <section class="item-cursos">
                 <div class="item-cursos-img">
-                    <img src="#" alt="img">
-                    <h3>Back-end</h3>
-                    <p> Introdução a POO | Java | PHP | C | C# | Node.JS | C++ | Python | Testes automatizados</p>
+                    <img  class="img-curso" src="../Imagens/backend.svg" alt="img">
+                    <div>
+                        <h3>Back-end</h3>
+                        <p> Introdução a POO | Java | PHP | C | C# | Node.JS | C++ | Python | Testes automatizados</p>
+                    </div>
                 </div>
-                <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
+                <div class="div-cursos">
+                    <p><img src="../Imagens/clock.png" alt="imagem de relógio">8 horas</p>
+                </div>
                 <button class="button-cursos">Acesse</button>
             </section>
 
@@ -130,26 +131,22 @@
 
         <!--seção para as depoimentos-->
         <article class="itemdepoimentos">
-            <section class="depoimentos">
+            <section class="depoimentos-1">
                 <p>O resultado não poderia ser diferente</p>
                 <h3>Uma plataforma que impulsiona!</h3>
+                <hr>
                 <p>10 cursos completos e alunos de todo o Brasil aprendendo diariamente</p>
             </section>
 
             <article class="depoimentos">
                 <section class="dep-item-1"> <!--seção para os depoimentos-->
-                    <p>"Aprendi muito e de maneira rápida, realizei os projetos propostos e alavan=quei minha carreira e meus estudos. Só tenho a agradecer a toda a equipe da Push Tech por tornar isso possível!"<br> Esthéfani Possamai
-                        Acadêmica e Desenvolvedora Front-end</p>
-                    <div>
+                    <div class="dep-text">
+                        <p>"Aprendi muito e de maneira rápida, realizei os projetos propostos e alavanquei minha carreira e meus estudos. Só tenho a agradecer a toda a equipe da Push Tech por tornar isso possível!"<hr>Esthéfani Possamai<br>Acadêmica e Desenvolvedora Front-end</p>
+                    
+                    
                         <img src="../Imagens/woman.png" alt="Imagem-da-pessoa.empresa">
                     </div>
-                </section>
-
-                <section class="dep-item-2"> <!--seção para os depoimentos-->
-                    <p>"A estrutura do curso foi fundamental para o meu crescimento e para poder entender como aquelas linhas de código faziam sentido, ajudando-me também nas disciplinas da graduação. Obrigado equipe da Push!"<br>Luís Felipe Ceron, Acadêmico de Ciência da Computação</p>
-                    <div>
-                        <img src="../Imagens/man.png" alt="Imagem-da-pessoa.empresa">
-                    </div>
+                   
                 </section>
             </article>
 
