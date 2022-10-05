@@ -1,27 +1,70 @@
-*{
-    background: rgb(0,27,36);
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&family=Zilla+Slab:wght@300;400&display=swap');
+
+*{}
+html {
+  background-image: url(../Imagens/metaversoo\ \(cópia\).jpg);
+  background-repeat: no-repeat;
+  background-size: 1700px;
+  background-position: top;
+  margin: 0px;
 }
 
-body {
-    margin-left: 0;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    font-family:'Poppins', sans-serif;
-    overflow-x:hidden;
-  }
+body{
+  margin: 0px;
+}
 
-header{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    padding: 0px 15px;
-    justify-content: space-between;
-}   
+section{
+  margin: 0px;
+}
+
+.organizar{
+display: flex;
+align-items: center;
+flex-direction: row;
+align-content: center;
+justify-content: flex-end;
+}
+
+.form-cad{
+  background-color: white;
+  margin-left: 0%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding: 2% 2%;
+}
+
+.div-form{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.radio-group {
+  padding: 0% 5% 5% 5%;
+}
+
+.botao{
+  margin: 0% 7% 5% 7%;
+}
+
+
+
+
+
+
+
+
+/* .main-form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
 
 a {
     color: rgb(0, 0, 0);
@@ -29,93 +72,123 @@ a {
     transition: 0.3s;
   }
 
-.logo_header{
+/* .logo_header{
     display: flex;
     align-items: center;
     gap: 5px;
-} 
+}  */
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+
+/*
+.form-select {
+  color: black;
 }
 
-  .form{
-    border-radius: 5px;
-    box-shadow: 5px 1px 30px rgb(26, 112, 198);
-    padding: 40px;
-    margin-top: 130px;
-  }
+
+.card h2{
+  border-bottom: 1px solid #323131;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+
+.group_elements{
+  width: 100%;
+  /* display: flex; */
+  gap: 15px;
+}
+
+.card-group{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+  gap: 2px;
+}
 
 
-  .card h2{
-    border-bottom: 1px solid #323131;
-    margin-bottom: 20px;
-    padding-bottom: 8px;
-  }
 
-  .group_elements{
-    width: 100%;
-    display: flex;
-    gap: 15px;
-  }
-
-  .card-group{
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0px;
-    gap: 2px;
-  }
+input[type="text"], input[type="email"], select{
+  background-color: #ECECEC;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  min-width: max(15vw, 250px);
+  min-height: 4vh;
+}
 
 
-  
-  input[type="text"], input[type="email"], select{
-    background-color: #ECECEC;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: none;
-    min-width: max(15vw, 250px);
-    min-height: 4vh;
-  }
+.button-criar:hover{
+  border: 2px solid #3f3d56;
+  background-color: #3f3d56;
+  transition: 0.5s;
+}
 
-  .botao{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
+button{
+  background-color: #3f3d56;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  padding: 15px;
+  margin-top: 20px;
+  transition: 0.5s;
+  width: 100%;
+}
 
-  button{
-    background-color:   rgb(86, 68, 186);
-    color: #fff;
-    border-radius: 10px;
-    border: none;
-    font-weight: bold;
-    padding: 8px 20px;
-    margin-top: 20px;
-    transition: 0.5s;
-  }
+button:hover{
+  color: #3f3d56;
+  font-weight: bold;
+  border: 2px solid white;
+  background-color: white;
+  transition: 1s;
+}
 
-  button:hover{
-    transform: scale(1.1);
-    background-color:  rgb(162, 165, 227);
-    cursor: pointer;
-  }
+.descricao-form {
+  text-align: right;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 5%;
+  color: white;
+}
 
-  .botao_a{
-    background-color:  rgb(86, 68, 186);
-    color: #fff;
-    border-radius: 10px;
-    border: none;
-    font-weight: bold;
-    padding: 8px 20px;
-    margin-top: 20px;
-  }
+.descricao-form p{
+  line-height: 30px;
+  margin: 0px;
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+}
 
-  .botao_a:hover{
-    transform: scale(1.1);
-    background-color: rgb(162, 165, 227);
-  }
+.descricao-form h3{
+  padding-top: 10%;
+  line-height: 50px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: 100;
+}
 
+.descricao-form div a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+}
+
+.descricao-form div{
+  margin: 10% 0%;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-group input{
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.radio-group label{
+  margin: 5px 0px;
+} */
+
+ */
