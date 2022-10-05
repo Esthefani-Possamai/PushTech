@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilo/style_cadastro.css">
+    <link rel="shortcut icon" href="../Imagens/icone.png" type="image/x-icon">
+    <title>Push Tech</title>
+</head>
+<body>
+
+
+    <main>
+        <form class="form" method="POST" action="#">
+        
+            <h2 class="title">CADASTRO</h2>
+
+                <div class="card-group">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Digite o nome" required>
+                </div>
+
+                <div class="group_elements">
+                    <div class="card-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Digite o Email" required>
+                    </div>
+                    <div class="card-group">
+                        <label>Telefone</label>
+                        <input type="text" placeholder="(XX) X XXXX-XXXX" required>
+                    </div>
+                </div>
+                <div class="group_elements">
+                    <div class="card-group">
+                        <label>Idade</label>
+                        <input type="text" placeholder="Digite sua idade">
+                    </div>
+                    <div class="card-group">
+                        <select name="area" id="">
+                            <option value="">Selecione</option>
+                            <option value="">Back-end</option>
+                            <option value="">Front-end</option>
+                            <option value="">Full-stack</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="radio-group">
+                    <label>Qual o seu status</label>
+                    <input type="radio" id="html" name="fav_language" ><label>Formado</label>
+                    <input type="radio" id="css" name="fav_language" > <label>Graduando</label>
+                    <input type="radio" id="javascript" name="fav_language" ><label>Ensino Médio</label>
+                </div>
+                    <div class="botao">
+                        <button type="submit">CADASTRAR</button>
+                        <a class="botao_a" href="index.html">VOLTAR</a>
+                    </div>
+        </form>
+    </main>
+
+
+  <script src="js/script.js"></script>
+ 
+</body>
+</html>

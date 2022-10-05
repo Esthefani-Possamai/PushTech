@@ -1,0 +1,121 @@
+*{
+    background: rgb(0,27,36);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family:'Poppins', sans-serif;
+    overflow-x:hidden;
+  }
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 15px;
+    justify-content: space-between;
+}   
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+.logo_header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+  .form{
+    border-radius: 5px;
+    box-shadow: 5px 1px 30px rgb(26, 112, 198);
+    padding: 40px;
+    margin-top: 130px;
+  }
+
+
+  .card h2{
+    border-bottom: 1px solid #323131;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+  }
+
+  .group_elements{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+
+  .card-group{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    gap: 2px;
+  }
+
+
+  
+  input[type="text"], input[type="email"], select{
+    background-color: #ECECEC;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    min-width: max(15vw, 250px);
+    min-height: 4vh;
+  }
+
+  .botao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  button{
+    background-color:   rgb(86, 68, 186);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+  }
+
+  button:hover{
+    transform: scale(1.1);
+    background-color:  rgb(162, 165, 227);
+    cursor: pointer;
+  }
+
+  .botao_a{
+    background-color:  rgb(86, 68, 186);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-top: 20px;
+  }
+
+  .botao_a:hover{
+    transform: scale(1.1);
+    background-color: rgb(162, 165, 227);
+  }
+
