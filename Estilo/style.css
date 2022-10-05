@@ -44,6 +44,7 @@ h3, h3{
     margin: 0;
     width: 100%;
     color: black;
+    font-size: 18px;
 }
 button{
     cursor: pointer;
@@ -184,6 +185,7 @@ button{
     font-family: 'Roboto Mono', monospace;
 }
 
+
 .section-1{
     width: 100%;
     height: 100vh;
@@ -198,7 +200,7 @@ button{
 }
 
 .section-1 div{
-    width: 30%;
+    width: 45%;
 }
 
 .section-1 img{
@@ -215,6 +217,7 @@ button{
 .logo-frase h2 {
     font-size: 35px;
     font-weight: 100;
+    line-height: 60px;
 }
 
 /*Cursos*/
@@ -239,11 +242,12 @@ button{
     color: black;
     margin: 3% 1.5%;
     box-shadow: 2px 1px 6px 1px black;
+    cursor: pointer;
 }
 
 .item-cursos:hover {
-    scale: 1.1;
-    transition: 1s;
+    transform: scale(1.1);
+    transition: 1.5s;
 }
 
 .item-cursos-img img {
@@ -273,13 +277,24 @@ button{
     border-radius: 20px;
     padding: 2%;
     width: 50%;
-    font-family:'Poppins', sans-serif;
     font-size: 16px;
     color: #3f3d56;
     font-weight: bold;
     border: 2px solid #3f3d56;
     background-color: transparent;
+    font-family: 'Roboto Mono', monospace;
 }
+
+.button-cursos:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
 /*Depoimentos*/
 
 .itemdepoimentos{
@@ -310,12 +325,12 @@ button{
 }
 
 .depoimentos-1 h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 100;
 }
 
 .depoimentos-1 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -328,7 +343,7 @@ button{
 
 .dep-item-1 {
     text-align: left;
-    padding: 15%;
+    padding: 5% 15%;
     margin-bottom: 3%;
     width: 90%;
     display: flex;
@@ -365,11 +380,13 @@ button{
 
 .dep-text p{
     margin-bottom: 0px;
+    width: 80%;
+    font-size: 18px;
 }
 
 .dep-text hr {
     margin: 20px 0px;
-    width: 60%;
+    width: 30%;
     border: 0.5px solid white;
     align-items: center;
     text-align: center;
@@ -411,15 +428,38 @@ button{
 }
 
 .incentivo h2 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 100;
     padding-left: 8%;
 }
 
+
 .incentivo p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     padding-left: 8%;
+}
+
+.button-cursos-in {
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2% 2% 2% 8%;
+    width: 30%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #3f3d56;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: transparent;
+}
+
+.button-cursos-in:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
 }
 
 
@@ -427,13 +467,16 @@ button{
 
 .eventoss{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-around;
     width: 90%;
     text-align: left;
     margin: 0% 5%;
     align-content: center;
-    align-items: center;
+}
+
+.text-evento{
+    margin-top: 8%;
 }
 
 .eventoss section{
@@ -441,12 +484,18 @@ button{
 }
 
 .img-eventos {
-    width: 70%;
+    width: 55%;
 }
 
 .img-eventos-1 {
-    width: 90%;
+    width: 80%;
     margin-top: 20px;
+}
+
+.evento-card {
+    border: 1px solid white;
+    margin: 1%;
+    width: 110%;
 }
 
 /*Banner*/
@@ -466,6 +515,28 @@ button{
     text-align: center;
     justify-content: center;
     padding-bottom: 40px;
+}
+
+.button-cursos-banner {
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2% 2% 2% 8%;
+    width: 20%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #3f3d56;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: transparent;
+}
+
+.button-cursos-banner:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
 }
 
 /*footer*/
@@ -508,6 +579,7 @@ footer section ul{
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
 }
+
 
 
 
