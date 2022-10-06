@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Estilo/style_cadastro.css">
-    <link rel="shortcut icon" href="../Imagens/icone.png" type="image/x-icon">
-    <title>Cadastro</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Estilo/style-cadastro.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="PushTech: uma plataforma gratuita de ensino de tecnologia para você dar um push em sua jornada.">
+        <link rel="shortcut icon" href="../Imagens/icone (1).png" type="image/x-icon">
+        <title>Cadastro</title>
+    </head>
 
-<body>
-    <main class="main-form">
-        <section class="form-cad">
-            <form method="POST" action="#">
-                <div class="div-form">
-                    <h2 class="title">CADASTRO</h2>
-                    <label>Nome</label>
-                    <input type="text" placeholder="Digite o nome" required>
-                    
-                    <label>Email</label>
-                    <input type="email" placeholder="Digite o Email" required>
-                    <label>Telefone</label>
-                    <input type="text" placeholder="(XX) X XXXX-XXXX" required>
-                    <label>Idade</label>
-                    <input type="text" placeholder="Digite sua idade">
-                    <label for="">Área de interesse:</label>
-                    <select class="form-select" name="area" id="">
-                        <option value="">Escolha</option>
-                        <option value="">Back-end</option>
-                        <option value="">Front-end</option>
-                        <option value="">Full-stack</option>
-                    </select>
-                </div>
-                    
-                <div class="radio-group">
-                    <label>Qual o seu status: </label>
-                    <label><input type="radio" id="html" name="fav_language">Sou estudante</label>
-                    <label><input type="radio" id="css" name="fav_language">Busco emprego na área tech</label>
-                    <label><input type="radio" id="javascript" name="fav_language">Quero me qualificar</label>
-                </div>
+    <body>
+        <main class="organizar">
+            
+            <section class="organizar">
 
-                <div class="botao">
-                    <button type="submit">CADASTRAR</button>
-                </div>
-            </form>
-        </section>
+                <section class="descricao-form">
+                    <header>
+                        <img src="../Imagens/logo.webp" alt="Logo">
+                    </header>
+                    <section>
+                        <h3>Mais de 1000 estudantes cadastrados na PushTech.</h3>
+                        <p>Junte-se a eles e elas, acelere na direção dos seus sonhos!</p>
+                        <div><a href="./index.html">&#8678; Voltar para a home</a></div>
+                    </section>
+                </section>
 
-        <section class="descricao-form">
-            <header>
-                <img src="../Imagens/logo.png" alt="Logo">
-            </header>
-            <article>
-                <h3>Mais de 1000 estudantes cadastrados na PushTech.</h3>
-                <p>Junte-se a eles e elas, acelere na direção dos seus sonhos!</p>
-                <div><a href="./index.html">Voltar para a home</a></div>
-            </article>
-        </section>
+                <section class="form-cad">
+                    <form  method="POST" action="#">
+                        <div class="div-form">
+                            <h2 class="title">Cadastro</h2>
+                            <label>Nome</label>
+                            <input type="text" placeholder="Digite seu nome..." required>
+                            <label>Email</label>
+                            <input type="email" placeholder="Digite seu e-mail..." required>
+                            <label>Telefone</label>
+                            <input type="text" placeholder="(XX) X XXXX-XXXX" required>
+                            <label>Idade</label>
+                            <input type="text" placeholder="Digite sua idade...">
+                            <label>Área de interesse:</label>
+                            <select class="form-select" name="area" id="area">
+                                <option value="escolha">Escolha</option>
+                                <option value="back-end">Back-end</option>
+                                <option value="front-end">Front-end</option>
+                                <option value="full-stack">Full-stack</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                                <option value="banco-de-dados">Banco de Dados</option>
+                            </select>
+                        </div>
+                
+                        <div class="radio-group">
+                            <label class="title-radio">Qual o seu status: </label>
+                            <label><input type="radio" id="html" name="fav_language">Sou estudante</label>
+                            <label><input type="radio" id="css" name="fav_language">Busco emprego na área tech</label>
+                            <label><input type="radio" id="javascript" name="fav_language">Quero me qualificar</label>
+                        </div>
 
-    </main>
- 
-</body>
+                        <div class="botao">
+                            <button type="submit">Cadastrar</button>
+                        </div>
+
+                    </form>
+
+                </section>
+
+            </section>
+
+        </main>
+
+    </body>
 </html>

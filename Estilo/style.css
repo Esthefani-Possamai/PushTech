@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&family=Zilla+Slab:wght@300;400&display=swap');
 
 html {
-    /* background: #000c13; */
-    /* background: rgb(29,14,28); */
     background: linear-gradient(180deg, rgba(29,14,28,1) 0%, rgba(27,13,29,1) 40%, rgba(38,6,17,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-
     color: white;
     margin: 0px;
     padding: 0px;
@@ -28,7 +25,7 @@ h3, h3{
 #gradient-container{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../Imagens/metaversoo.jpg);
+    background-image: url(../Imagens/metaversoo.webp);
     width: 100%;
     height: 110vh;
     background-position: top;    
@@ -42,6 +39,7 @@ h3, h3{
     color: black;
     font-size: 18px;
 }
+
 button{
     cursor: pointer;
 }
@@ -361,8 +359,7 @@ button{
     display: flex;
     align-items: center;
     -webkit-border-botton-right: 30px;
-    
-    background-image: url(../Imagens/Gradient\ Modern\ Technology\ Company\ Developers\ Logo\ \(4\).png);
+    background-image: url(../Imagens/Gradient\ Modern\ Technology\ Company\ Developers\ Logo\ \(4\).webp);
     background-repeat: no-repeat;
     background-size: 100% 550px;
     background-position: center;
@@ -552,7 +549,7 @@ button{
 .evento-card-2:hover{
     color: transparent;
     display: flex;
-    background-image: url(../Imagens/Azure-Cloud-Native-Apps.png);
+    background-image: url(../Imagens/Azure-Cloud-Native-Apps.webp);
     background-repeat: no-repeat;
     background-size: 300px ;
     background-position: center;
