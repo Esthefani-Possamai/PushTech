@@ -412,8 +412,6 @@ button{
     text-align: center;
     background-color: #E6E6E6;
     color: black;
-    /* width: 100%; */
-    /* height: 60vh;   */
     height: 450px;
     margin-bottom: 5%;
 }
@@ -432,8 +430,6 @@ button{
     align-items: center;
     align-content: center;
     text-align: left;
-    m
-    /* margin-right: 5%; */
 }
 
 .incentivo h2 {
