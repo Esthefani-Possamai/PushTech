@@ -27,6 +27,7 @@ justify-content: flex-end;
 
 .form-cad{
   background-color: white;
+  border-radius: 30px;
   margin-left: 0%;
   margin-right: 10%;
   display: flex;
@@ -34,7 +35,7 @@ justify-content: flex-end;
   width: 100%;
   margin-top: 2%;
   margin-bottom: 1%;
-  padding: 2% 2%;
+  padding: 1% 2%;
 }
 
 .div-form{
@@ -51,60 +52,12 @@ justify-content: flex-end;
   margin: 0% 7% 5% 7%;
 }
 
-
-
-
-
-
-
-
-/* .main-form{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
-
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    transition: 0.3s;
-  }
-
-/* .logo_header{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}  */
-
-
-/*
-.form-select {
-  color: black;
-}
-
-
-.card h2{
-  border-bottom: 1px solid #323131;
-  margin-bottom: 20px;
-  padding-bottom: 8px;
-}
-
-.group_elements{
-  width: 100%;
-  /* display: flex; */
-  gap: 15px;
-}
-
 .card-group{
   display: flex;
   flex-direction: column;
   padding: 5px 0px;
   gap: 2px;
 }
-
-
 
 input[type="text"], input[type="email"], select{
   background-color: #ECECEC;
@@ -115,31 +68,66 @@ input[type="text"], input[type="email"], select{
   min-height: 4vh;
 }
 
-
-.button-criar:hover{
-  border: 2px solid #3f3d56;
-  background-color: #3f3d56;
-  transition: 0.5s;
+.div-form h2 {
+  line-height: 50px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  font-weight: 100;
 }
+
+.title-radio, .div-form label {
+  line-height: 25px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.div-form input {
+  line-height: 25px;
+  margin: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.form-select{
+  line-height: 25px;
+  margin: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
 
 button{
   background-color: #3f3d56;
   color: #fff;
   border-radius: 10px;
   border: none;
-  font-weight: bold;
-  padding: 15px;
-  margin-top: 20px;
+  padding: 10px;
+  margin-top: 3px;
   transition: 0.5s;
   width: 100%;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 button:hover{
   color: #3f3d56;
   font-weight: bold;
-  border: 2px solid white;
-  background-color: white;
-  transition: 1s;
+  background-color: rgb(168, 162, 162);
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .descricao-form {
@@ -178,17 +166,16 @@ button:hover{
 }
 
 .radio-group {
+  line-height: 25px;
+  margin: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding-left: 3px;
   display: flex;
   flex-direction: column;
 }
 
-.radio-group input{
-  margin-right: 10px;
-  vertical-align: middle;
+.radio-group label {
+  margin: 0px;
 }
-
-.radio-group label{
-  margin: 5px 0px;
-} */
-
- */
