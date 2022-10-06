@@ -746,3 +746,14 @@ footer section ul{
     scale: 1.1;
     transition: 1s;
 }
+
+/*Página de cursos*/
+
+#gradient-container-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Imagens/Design\ sem\ nome.png);
+    width: 100%;
+    height: 100vh;
+    background-position: top;    
+}
