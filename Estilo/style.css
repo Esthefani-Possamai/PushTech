@@ -750,9 +750,9 @@ footer section ul{
 /*Página de cursos*/
 
 #gradient-container-2{
+    background-image: url(../Imagens/imgprin.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../Imagens/Design\ sem\ nome.png);
     width: 100%;
     height: 100vh;
     background-position: top;    

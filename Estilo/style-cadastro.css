@@ -58,7 +58,7 @@ justify-content: flex-end;
   gap: 2px;
 }
 
-input[type="text"], input[type="email"], select{
+input[type="text"], input[type="email"], input[type="password"], select{
   background-color: #ECECEC;
   padding: 5px 10px;
   border-radius: 5px;
