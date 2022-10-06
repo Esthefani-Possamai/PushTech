@@ -757,3 +757,38 @@ footer section ul{
     height: 100vh;
     background-position: top;    
 }
+
+.cursos-op {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 3% 0% 3% 4%;
+    line-height: 25px;
+}
+
+.cursos-op section{
+    width: 25%;
+    margin: 3%;
+}
+
+.button-formacoes {
+    border-radius: 10px;
+    padding: 3%;
+    margin: 0% 2%;
+    width: 80%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.button-formacoes:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
+}
