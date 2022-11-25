@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/style-cadastro.css">
+        <meta name="description" content="PushTech: uma plataforma gratuita de ensino de tecnologia para você dar um push em sua jornada.">
+        <link rel="shortcut icon" href="../Imagens/icone (1).png" type="image/x-icon">
+        <title>Cadastro</title>
+    </head>
+
+    <body>
+        <main class="organizar">
+            
+            <section class="organizar">
+
+                <section class="descricao-form">
+                    <header>
+                        <img src="../Imagens/logo.webp" alt="Logo">
+                    </header>
+                    <section>
+                        <h3>Mais de 1000 estudantes cadastrados na PushTech.</h3>
+                        <p>Junte-se a eles e elas, acelere na direção dos seus sonhos!</p>
+                        <div><a href="./index.html">&#8678; Voltar para a home</a></div>
+                    </section>
+                </section>
+
+                <section class="form-cad">
+                    <form  method="POST" action="#">
+                        <div class="div-form">
+                            <h2 class="title">Cadastro</h2>
+                            <label>Nome</label>
+                            <input type="text" placeholder="Digite seu nome..." required>
+                            <label>Email</label>
+                            <input type="email" placeholder="Digite seu e-mail..." required>
+                            <label>Telefone</label>
+                            <input type="text" placeholder="(XX) X XXXX-XXXX" required>
+                            <label>Senha</label>
+                            <input type="password" placeholder="Digite sua senha...">
+                            <label>Área de interesse:</label>
+                            <select class="form-select" name="area" id="area">
+                                <option value="escolha">Escolha</option>
+                                <option value="back-end">Back-end</option>
+                                <option value="front-end">Front-end</option>
+                                <option value="full-stack">Full-stack</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                                <option value="banco-de-dados">Banco de Dados</option>
+                            </select>
+                        </div>
+                
+                        <div class="radio-group">
+                            <label class="title-radio">Qual o seu status: </label>
+                            <label><input type="radio" id="html" name="fav_language">Sou estudante</label>
+                            <label><input type="radio" id="css" name="fav_language">Busco emprego na área tech</label>
+                            <label><input type="radio" id="javascript" name="fav_language">Quero me qualificar</label>
+                        </div>
+
+                        <div class="botao">
+                            <button type="submit">Cadastrar</button>
+                        </div>
+
+                    </form>
+
+                </section>
+
+            </section>
+
+        </main>
+
+    </body>
+</html>

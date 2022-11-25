@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&family=Zilla+Slab:wght@300;400&display=swap');
+
+html {
+    background: linear-gradient(180deg, rgba(29,14,28,1) 0%, rgba(27,13,29,1) 40%, rgba(38,6,17,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    margin: 0px;
+    font-family:'Poppins', sans-serif;
+    overflow-x:hidden;
+}
+
+h2, 
+h3, h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#gradient-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Imagens/metaversoo.webp);
+    width: 100%;
+    height: 110vh;
+    background-position: top;    
+}
+
+#id-objetivos {
+    background-color: white;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.logo{
+    border: none;
+    margin-top: 10px;
+}
+
+/*o menu de navegação*/
+.menu {
+    margin: 0px;
+    padding: 1% 0% 0% 0%;
+    border: 0;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial;
+}
+
+
+.menu-nav{
+    padding: 0;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.objetivos{
+    padding-top: 40px;
+    padding-left: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.objetivos li {
+    padding: 15px;
+    width: 20%;
+    display: inline;
+}
+
+
+
+
+/*textos do menu*/
+.text-menu{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(235, 242, 245);
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*cor dos links depois de acessá-los*/
+.text-menu:visited{
+    color: rgb(235, 242, 245);
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+/*cada item do menu de navegação*/
+.menu-item{
+    align-items: center;
+    width: 25%;
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*todos os itens do menu*/
+.menu-item a {
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+}
+/*toda a caixa de pesquisa*/
+.menu-caixa{
+    border-radius: 40px;
+    background-color: #557985;
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*texto da caixa de pesquisa*/
+.menu-caixa ::placeholder{
+    font-size: 15px;
+    color: rgb(235, 242, 245);
+}
+
+
+ /*caixa de texto pesquisar*/
+.caixa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 10px;
+    color: rgb(235, 242, 245);
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*a imagem da lupa*/
+.menu-caixa img {
+    width: 12px;
+    position: relative;
+}
+
+.button-criar {
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    width: 8em;
+    border: 1px solid white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-criar:hover{
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    transition: 0.5s;
+    
+}
+
+.menu-item button {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(235, 242, 245);
+}
+
+.menu-acesso{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    align-items: left;
+    margin-top: 4%;
+    padding: 4% 0%;
+    text-align: left;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-1 div{
+    width: 45%;
+}
+
+.section-1 img{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.logo-frase{
+    width: 40%;
+    margin: 1% 0% 2% 10%;
+    text-align: left;
+}
+
+.logo-frase h2 {
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+.logo-frase p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Cursos*/
+
+.cursos{
+    display: flex;
+    padding: 40px 40px 0px 40px;
+    margin: 0;
+    justify-content: space-around
+}
+
+.item-cursos{
+    width: 35%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    color: black;
+    margin: 3% 1.3%;
+    box-shadow: 2px 1px 6px 1px black;
+    cursor: pointer;
+}
+
+.item-cursos p{
+    font-size: 18px;
+}
+
+.item-cursos:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.item-cursos-img img {
+    width: 100%;  
+    padding-top: 25px; 
+}
+
+.img-curso{
+    padding-bottom: 50px;
+}
+
+.img-curso-1 {
+    padding-bottom: 25px;
+}
+
+.img-curso-2 {
+    padding-bottom: 20px;
+}
+
+.div-cursos img {
+    align-items: center;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.button-cursos {
+    border-radius: 20px;
+    padding: 2%;
+    width: 50%;
+    font-size: 16px;
+    color: #3f3d56;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: transparent;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-cursos:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/*Depoimentos*/
+
+.itemdepoimentos{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-image: #557985;
+    justify-content: center;
+}
+
+.depoimentos{
+    width: 100%;
+    text-align: left;
+    display: inline;
+    align-items: center;
+    margin-right: 10%;
+
+}
+
+.depoimentos-1{
+    width: 60%;
+    text-align: left;
+    margin-left: 8%;
+    display: inline;
+    align-items: center;
+}
+
+.depoimentos-1 h3 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.depoimentos-1 p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.depoimentos-1 hr {
+    margin: 0px;
+    width: 30%;
+    border: 1px solid white;
+    align-items: left;
+}
+
+.dep-item-1 {
+    text-align: left;
+    padding: 5% 15%;
+    margin-bottom: 3%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    -webkit-border-botton-right: 30px;
+    background-image: url(../Imagens/Gradient\ Modern\ Technology\ Company\ Developers\ Logo\ \(4\).webp);
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    background-position: center;
+}
+
+.dep-item-1 img {
+    width: 150px;
+    margin:0px;
+    padding: 0px;
+}
+
+.dep-text{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    text-align: center;
+    align-items: center
+}
+
+
+.dep-item-1 hr {
+    margin: 0px;
+    width: 20px;
+    border: 2px solid white;
+    align-items: left;
+}
+
+.dep-text p{
+    margin-bottom: 0px;
+    width: 80%;
+    font-size: 18px;
+}
+
+.dep-text hr {
+    margin: 20px 0px;
+    width: 30%;
+    border: 0.5px solid white;
+    align-items: center;
+    text-align: center;
+} 
+
+
+/*Incentivo*/
+.incentivo{
+    display: flex;
+    padding: 40px 40px 40px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #E6E6E6;
+    color: black;
+    height: 450px;
+    margin-bottom: 5%;
+}
+
+.incentivo img{
+   width: 100%;
+   text-align: left;
+   align-content: center;
+   display: flex;
+   margin-right: 0px;
+   padding-top: 70px;
+}
+
+.incentivo section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+}
+
+.incentivo h2 {
+    font-size: 35px;
+    font-weight: 100;
+    padding-left: 8%;
+}
+
+
+.incentivo p{
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 8%;
+}
+
+.button-cursos-in {
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2% 2% 2% 8%;
+    width: 30%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #3f3d56;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: transparent;
+}
+
+.button-cursos-in:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
+}
+
+
+/*Eventos*/
+
+.eventoss{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 90%;
+    text-align: left;
+    margin: 0% 5%;
+    align-content: center;
+}
+
+.text-evento{
+    width: 100%;
+}
+
+.text-evento h3{
+   font-size: 30px;
+   font-weight: 100;
+}
+
+.text-evento p{
+    font-size: 18px;
+    font-weight: 100;
+ }
+
+.eventoss section{
+    padding: 2%;
+}
+
+.img-eventos {
+    width: 55%;
+}
+
+.img-eventos-1 {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.evento-card-1,
+.evento-card-2 {
+    border: 1px solid white;
+    margin: 1% 1% 0% 1%;
+    width: 110%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem-card{
+   display: none;
+}
+
+
+.evento-card-1 h4 {
+    text-align: center;
+}
+
+.evento-card-2 h4 {
+    text-align: center;
+}
+
+.evento-card-1:hover{
+    color: transparent;
+    display: flex;
+    background-image: url(../Imagens/sulcomp.webp);
+    background-repeat: no-repeat;
+    background-size: 200px ;
+    background-position: center;
+    text-overflow: 20;
+}
+
+.evento-card-2:hover{
+    color: transparent;
+    display: flex;
+    background-image: url(../Imagens/Azure-Cloud-Native-Apps.webp);
+    background-repeat: no-repeat;
+    background-size: 300px ;
+    background-position: center;
+    text-overflow: 20;
+}
+
+
+.local {
+    text-align: center;
+}
+
+.button-cursos-eve {
+    border-radius: 20px;
+    padding: 2%;
+    width: 50%;
+    font-size: 16px;
+    color: #3f3d56;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: transparent;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2%;
+}
+
+.button-cursos-eve:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+
+/*Banner*/
+
+.banner{
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.banner img{
+    width: 40%;
+    padding: 10px;
+    margin: 2% 0%;
+}
+
+.button-banner{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.button-cursos-banner {
+    border-radius: 20px;
+    padding: 1%;
+    margin: 0% 2% 2% 8%;
+    width: 20%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.button-cursos-banner:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
+}
+
+/*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.footer section{
+    width: 50%;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    font-weight: bold;
+}
+
+.nav-rodape{
+    display: flex;
+    padding: 0;
+    margin: 0px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.rodape-section,
+.rodape-section-2 {
+    width: 60%;
+    padding: 2px;
+    margin: 0;
+}
+
+
+footer section ul{
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+}
+
+.rodape-section img {
+    margin-top: 4%;
+}
+
+.nav-rodape h3{  
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.rodape-section-2 {
+   margin: 0% 5% 0% 4%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.rodape-section-2 p{
+    text-align: left;
+}
+
+.form-footer div {
+    margin-bottom: 5%;
+}
+
+.form-footer div input {
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 280px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.form-footer div input::placeholder{
+    color: rgb(168, 162, 162);
+}
+
+
+.button-footer {
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2% 2% 2% 0%;
+    width: 50%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.button-footer:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
+}
+
+/*Página de cursos*/
+
+#gradient-container-2{
+    background-image: url(../Imagens/imgprin.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: top;    
+}
+
+.cursos-op {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 3% 0% 3% 4%;
+    line-height: 25px;
+}
+
+.cursos-op section{
+    width: 25%;
+    margin: 3%;
+}
+
+.button-formacoes {
+    border-radius: 10px;
+    padding: 3%;
+    margin: 0% 2%;
+    width: 80%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.button-formacoes:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    scale: 1.1;
+    transition: 1s;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}

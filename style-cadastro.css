@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&family=Zilla+Slab:wght@300;400&display=swap');
+
+html {
+  background-image: url(../Imagens/metaversoo\ \(cópia\).webp);
+  background-repeat: no-repeat;
+  background-size: 1700px;
+  background-position: top;
+  margin: 0px;
+}
+
+body{
+  margin: 0px;
+}
+
+section{
+  margin: 0px;
+}
+
+.organizar{
+display: flex;
+align-items: center;
+flex-direction: row;
+align-content: center;
+justify-content: flex-end;
+}
+
+.form-cad{
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 0%;
+  margin-right: 9%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1.5%;
+  margin-bottom: 0.5%;
+  padding: 1% 2%;
+}
+
+.div-form{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.radio-group {
+  padding: 0% 5% 5% 5%;
+}
+
+.botao{
+  margin: 0% 7% 5% 7%;
+}
+
+.card-group{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+  gap: 2px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select{
+  background-color: #ECECEC;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  min-width: max(15vw, 250px);
+  min-height: 4vh;
+}
+
+.div-form h2 {
+  line-height: 50px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.title-radio, .div-form label {
+  line-height: 25px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.div-form input {
+  line-height: 25px;
+  margin: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.form-select{
+  line-height: 25px;
+  margin: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+button{
+  background-color: #3f3d56;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-top: 3px;
+  transition: 0.5s;
+  width: 100%;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+button:hover{
+  color: #3f3d56;
+  font-weight: bold;
+  background-color: rgb(168, 162, 162);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.descricao-form {
+  text-align: right;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 5%;
+  color: white;
+}
+
+.descricao-form p{
+  line-height: 30px;
+  margin: 0px;
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+}
+
+.descricao-form h3{
+  padding-top: 10%;
+  line-height: 50px;
+  margin: 0px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.descricao-form div a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family:'Poppins', sans-serif;
+}
+
+.descricao-form div{
+  margin: 10% 0%;
+}
+
+.radio-group {
+  line-height: 25px;
+  margin: 0px;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding-left: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-group label {
+  margin: 0px;
+}
