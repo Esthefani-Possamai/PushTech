@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="style-cadastro.css">
         <meta name="description" content="PushTech: uma plataforma gratuita de ensino de tecnologia para você dar um push em sua jornada.">
         <link rel="shortcut icon" href="../Imagens/icone (1).png" type="image/x-icon">
+        <script src="../js/script.js" defer></script>
         <title>Cadastro</title>
     </head>
 
@@ -28,11 +29,11 @@
                 </section>
 
                 <section class="form-cad">
-                    <form  method="POST" action="#">
+                    <form  method="POST" action="#" >
                         <div class="div-form">
                             <h2 class="title">Cadastro</h2>
                             <label>Nome</label>
-                            <input type="text" placeholder="Digite seu nome..." required>
+                            <input id="name" type="text" placeholder="Digite seu nome..." required>
                             <label>Email</label>
                             <input type="email" placeholder="Digite seu e-mail..." required>
                             <label>Telefone</label>
@@ -58,7 +59,7 @@
                         </div>
 
                         <div class="botao">
-                            <button type="submit">Cadastrar</button>
+                            <button type="button" onclick="modal_open()">Cadastrar</button>
                         </div>
 
                     </form>
@@ -66,6 +67,17 @@
                 </section>
 
             </section>
+
+            <div id="fade" class="hide"></div>
+            <div id="modal" class="hide">
+                <div class="modal_header">
+                <h2 id="texto_modal"></h2>
+                    <button id="close_modal" onclick="close_modal()">Fechar</button>
+                </div>
+                <div class="modal_body">
+                    <p id="texto_modal_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique non ratione mollitia ex suscipit voluptatibus, quam corrupti, ipsam, excepturi eius iusto optio necessitatibus nam voluptate earum libero ea architecto quis!</p>
+                </div>
+            </div>
 
         </main>
 
