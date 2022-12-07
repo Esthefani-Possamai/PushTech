@@ -758,7 +758,7 @@ footer section ul{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 3% 0% 3% 4%;
+    margin: 3% 0% 0% 4%;
     line-height: 25px;
 }
 
@@ -787,4 +787,48 @@ footer section ul{
     background-color: #3f3d56;
     scale: 1.1;
     transition: 1s;
+}
+
+.button-form {
+    border-radius: 20px;
+    padding: 6%;
+    width: 190px;
+    font-size: 16px;
+    color: #3f3d56;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: transparent;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20% 0% 35% 0%;
+    cursor: pointer;
+}
+
+.button-form:hover {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #3f3d56;
+    background-color: #3f3d56;
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.button-expand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.cursos-op2 {
+    display: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0% 0% 3% 4%;
+    line-height: 25px;
+}
+
+.cursos-op2 section{
+    width: 25%;
+    margin: 3%;
 }
