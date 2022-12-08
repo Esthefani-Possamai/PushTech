@@ -218,3 +218,15 @@ button:hover{
 #fade.hide {
   display: none;
 }
+
+.obrig{
+    margin: 0px;
+    color: red;
+    display: none;
+}
+
+.lables{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

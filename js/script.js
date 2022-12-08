@@ -13,10 +13,22 @@ function modal_open(e){
 
     console.log(nome);
     if(nome.value == "" || email.value == "" || fone.value == "" || senha.value == "" || area.value == ""){
-        modal.style.display = "block";
-        fade.style.display = "block";  
-        texto.innerHTML = "Digite seus dados no formulário";
-        texto_modal_body.style.display = "none" 
+        if(nome.value == ""){
+          let nome_obrig = document.querySelector('#obri-nome');
+          nome_obrig.style.display = "block";
+        }
+        if(email.value == ""){
+          let email_obrig = document.querySelector('#obri-email');
+          email_obrig.style.display = "block";
+        }
+        if(fone.value == ""){
+          let fone_obrig = document.querySelector('#obri-fone');
+          fone_obrig.style.display = "block";
+        }
+        if(senha.value == ""){
+          let senha_obrig = document.querySelector('#obri-senha');
+          senha_obrig.style.display = "block";
+        }
     }else{
         modal.style.display = "block";
         fade.style.display = "block";

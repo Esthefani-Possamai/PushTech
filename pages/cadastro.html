@@ -33,13 +33,25 @@
                     <form  method="POST" action="#" >
                         <div class="div-form">
                             <h2 class="title">Cadastro</h2>
-                            <label>Nome</label>
+                            <div class="lables">
+                                <label>Nome</label>
+                                <p id="obri-nome" class="obrig">campo obrigaório *</p>
+                            </div>
                             <input id="name" type="text" placeholder="Digite seu nome..." required>
-                            <label>Email</label>
+                            <div class="lables">
+                                <label>Email</label>
+                                <p id="obri-email" class="obrig">campo obrigaório *</p>
+                            </div>
                             <input id="email" type="email" placeholder="Digite seu e-mail..." required>
-                            <label>Telefone</label>
+                            <div class="lables">
+                                <label>Telefone</label>
+                                <p id="obri-fone" class="obrig">campo obrigaório *</p>
+                            </div>
                             <input id="numero" onkeyup="mascara_fone()" type="text" placeholder="(XX) X XXXX-XXXX" maxlength="16" required>
-                            <label>Senha</label>
+                            <div class="lables">
+                                <label>Senha</label>
+                                <p id="obri-senha" class="obrig">campo obrigaório *</p>
+                            </div>
                             <input id="senha" type="password" placeholder="Digite sua senha...">
                             <label>Área de interesse:</label>
                             <select id="area" class="form-select" name="area" id="area">
