@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="PushTech: uma plataforma gratuita de ensino de tecnologia para você dar um push em sua jornada.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../Imagens/icone (1).png" type="image/x-icon">
     <script src="../js/script.js" defer></script>
     <style>
@@ -46,14 +48,45 @@
             </nav>
         </header>
 
-        <article>
-            <section class="section-1">
-                <div class="logo-frase">
-                    <h2>Impulse seu conhecimento no mundo tech com nossas formações</h2>
-                    <p>Seu futuro começa agora.</p>
+        <div id="carouselExampleCaptions" class="carousel slide h-75" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Imagens/unesc.webp" class="d-block  w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
                 </div>
-            </section>
-        </article>
+              </div>
+              <div class="carousel-item">
+                <img src="../Imagens/unesc.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../Imagens/unesc.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </div>
 
     <main>
@@ -62,38 +95,38 @@
             <div class="cursos-op">
                 <section>
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Front-end</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Front-end, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Front-end</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Front-end, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section>
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Back-end</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Back-end, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Back-end</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Back-end, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section>
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Banco de Dados</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Banco de Dados, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Banco de Dados</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Banco de Dados, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section>
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>UI Design</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de UI Design, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">UI Design</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de UI Design, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section>
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>UX Design</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de UX Design, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">UX Design</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de UX Design, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section>
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Algoritmos</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Algoritmos, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Algoritmos</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Algoritmos, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
             </div>
@@ -101,20 +134,20 @@
             <div class="cursos-op2">
                 <section class="expand">
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Sistemas operacionais</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de S. Operacionais, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Sistemas operacionais</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de S. Operacionais, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section class="expand">
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Estrutura de dados</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Estrutura de Dados, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Estrutura de dados</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Estrutura de Dados, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
                 <section class="expand">
                     <iframe width="350" height="205" src="https://www.youtube.com/embed/iSqf2iPqJNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3>Hardware</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Hardware, acesse-o abaixo.</i></p>
+                    <h3 class="text-white">Hardware</h3>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe dolorem laborum, aliquam esse soluta suscipit incidunt dolores asperiores<br><i>Este vídeo pertence ao curso de Hardware, acesse-o abaixo.</i></p>
                     <a href="#"><button class="button-formacoes">Acessar o curso completo</button></a>
                 </section>
             </div>
@@ -134,7 +167,7 @@
         <section class="rodape-section">
             <nav>
                 <img src="../Imagens/logo.webp" alt="Imagem-Logo">
-                <p>Encontre-nos em outras redes: </p>
+                <p class="text-white">Encontre-nos em outras redes: </p>
                 <a href="https://www.instagram.com/" target="_blank"><img src="../Imagens/instagram-icon.png" alt="Instagram"></a>
                 <a href="https://www.facebook.com/" target="_blank"><img src="../Imagens/facebook.png" alt="Facebook"></a>
                 <a href="https://twitter.com/home" target="_blank"><img src="../Imagens/twitter.png" alt="Twitter"></a>
@@ -147,7 +180,7 @@
             <nav class="nav-rodape">
                 <ul class="nav-rodape-item">
                     <li>
-                        <h3>PushTech</h3>
+                        <h3 class="text-white">PushTech</h3>
                     </li>
                     <li><a href="index.html">Início</a></li>
                     <li><a href="formações.html">Formações</a></li>
@@ -156,7 +189,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <h3>Conteúdos</h3>
+                        <h3 class="text-white">Conteúdos</h3>
                     </li>
                     <li><a href="#">Front-end</a></li>
                     <li><a href="#">UI/UX & Design</a></li>
@@ -164,7 +197,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <h3>Dúvidas</h3>
+                        <h3 class="text-white">Dúvidas</h3>
                     </li>
                     <li><a href="#">Central de ajuda</a></li>
                     <li><a href="#">Comunidade</a></li>
@@ -173,14 +206,14 @@
         </section>
 
         <section class="rodape-section-2">
-            <p>Caso deseje receber as atualizações e novidades da plataforma não deixe de nos enviar seu contato:</p>
+            <p class="text-white">Caso deseje receber as atualizações e novidades da plataforma não deixe de nos enviar seu contato:</p>
             <form class="form-footer">
                 <div>
-                    <label for="name">Nome</label>
+                    <label for="name" class="text-white">Nome</label>
                     <input type="text" id="name" placeholder="Digite seu nome..." name="nome" maxlength="30" required>
                 </div>
                 <div>
-                    <label for="email">E-mail</label>
+                    <label for="email" class="text-white">E-mail</label>
                     <input type="email" id="email" placeholder="Digite seu e-mail..." name="e-mail" maxlength="50" required>
                 </div>
             </form>
