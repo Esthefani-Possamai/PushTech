@@ -78,3 +78,10 @@ function mascara_fone() {
     }
     
   }
+
+  //apoiador
+
+  function expandir(){
+    modal.style.display = "block";
+    fade.style.display = "block";
+  }
