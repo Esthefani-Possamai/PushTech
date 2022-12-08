@@ -35,13 +35,13 @@
                             <label>Nome</label>
                             <input id="name" type="text" placeholder="Digite seu nome..." required>
                             <label>Email</label>
-                            <input type="email" placeholder="Digite seu e-mail..." required>
+                            <input id="email" type="email" placeholder="Digite seu e-mail..." required>
                             <label>Telefone</label>
-                            <input type="text" placeholder="(XX) X XXXX-XXXX" required>
+                            <input id="numero" onkeyup="mascara_fone()" type="text" placeholder="(XX) X XXXX-XXXX" maxlength="16" required>
                             <label>Senha</label>
-                            <input type="password" placeholder="Digite sua senha...">
+                            <input id="senha" type="password" placeholder="Digite sua senha...">
                             <label>Área de interesse:</label>
-                            <select class="form-select" name="area" id="area">
+                            <select id="area" class="form-select" name="area" id="area">
                                 <option value="escolha">Escolha</option>
                                 <option value="back-end">Back-end</option>
                                 <option value="front-end">Front-end</option>
