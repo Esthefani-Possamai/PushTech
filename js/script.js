@@ -43,6 +43,7 @@ function modal_open(){
 }
 
 function close_modal(){
+
     modal.style.display = "none";
     fade.style.display = "none";
 }
@@ -52,7 +53,6 @@ function close_modal(){
     var secao = document.querySelector('.cursos-op2') 
     var button = document.querySelector('.button-form') 
     
-    button.addEventListener("click", expand);
     
     function expand() {
         console.log(secao, button);
@@ -85,3 +85,17 @@ function mascara_fone() {
     modal.style.display = "block";
     fade.style.display = "block";
   }
+
+  //carrossel
+
+  let contador = 1;
+
+  setInterval(function () {
+    console.log( document.getElementById("slide" + contador));
+    document.getElementById("slide" + contador).checked = true;
+    contador++;
+  
+    if (contador > 3) {
+      contador = 1;
+    }
+  }, 2000);
