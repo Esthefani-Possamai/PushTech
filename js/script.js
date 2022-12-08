@@ -36,7 +36,7 @@ function modal_open(){
     }else{
         modal.style.display = "block";
         fade.style.display = "block";
-        texto.innerHTML = "Olá " + nome.value;
+        texto.innerHTML = "Olá, " + nome.value + "!";
         texto_modal_body.style.display = "block" 
 
     }

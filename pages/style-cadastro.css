@@ -206,12 +206,13 @@ button:hover{
   width: 100px;
 }
 
-
 .modal_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ccc;
+  margin: 0px 25px;
+  padding-bottom: 1rem;
 }
 
 #modal.hide,
@@ -223,10 +224,51 @@ button:hover{
     margin: 0px;
     color: red;
     display: none;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 .lables{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#texto_modal {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+#texto_modal_body {
+  font-family:'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+
+.imageModal {
+  width: 280px;
+  padding-top: 1.4rem;
+}
+
+.modal_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  background: rgba(29,14,28,1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(29,14,28,1);
 }

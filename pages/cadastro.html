@@ -35,22 +35,22 @@
                             <h2 class="title">Cadastro</h2>
                             <div class="lables">
                                 <label>Nome</label>
-                                <p id="obri-nome" class="obrig">campo obrigaório *</p>
+                                <p id="obri-nome" class="obrig">campo obrigatório *</p>
                             </div>
-                            <input id="name" type="text" placeholder="Digite seu nome..." required>
+                            <input id="name" type="text" maxlength="30" placeholder="Digite seu nome..." required>
                             <div class="lables">
                                 <label>Email</label>
-                                <p id="obri-email" class="obrig">campo obrigaório *</p>
+                                <p id="obri-email" class="obrig">campo obrigatório *</p>
                             </div>
                             <input id="email" type="email" placeholder="Digite seu e-mail..." required>
                             <div class="lables">
                                 <label>Telefone</label>
-                                <p id="obri-fone" class="obrig">campo obrigaório *</p>
+                                <p id="obri-fone" class="obrig">campo obrigatório *</p>
                             </div>
                             <input id="numero" onkeyup="mascara_fone()" type="text" placeholder="(XX) X XXXX-XXXX" maxlength="16" required>
                             <div class="lables">
                                 <label>Senha</label>
-                                <p id="obri-senha" class="obrig">campo obrigaório *</p>
+                                <p id="obri-senha" class="obrig">campo obrigatório *</p>
                             </div>
                             <input id="senha" type="password" placeholder="Digite sua senha...">
                             <label>Área de interesse:</label>
@@ -84,11 +84,12 @@
             <div id="fade" class="hide"></div>
             <div id="modal" class="hide">
                 <div class="modal_header">
-                <h2 id="texto_modal"></h2>
+                    <h2 id="texto_modal"></h2>
                     <button id="close_modal" onclick="close_modal()">Fechar</button>
                 </div>
                 <div class="modal_body">
-                    <p id="texto_modal_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique non ratione mollitia ex suscipit voluptatibus, quam corrupti, ipsam, excepturi eius iusto optio necessitatibus nam voluptate earum libero ea architecto quis!</p>
+                    <p id="texto_modal_body">Além de assistir as aulas e ler os conteúdos, realize projetos reais e idealize ideias ao longo do caminho!</p>
+                    <img class="imageModal" src="../Imagens/modal.png" alt="image-motivacional">
                 </div>
             </div>
 
