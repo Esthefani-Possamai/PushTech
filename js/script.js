@@ -98,4 +98,4 @@ function mascara_fone() {
     if (contador > 2) {
       contador = 1;
     }
-  }, 2000);
+  }, 4000);

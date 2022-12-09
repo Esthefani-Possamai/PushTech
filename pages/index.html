@@ -18,8 +18,9 @@
     <div id="gradient-container">
         <header>
             <nav class="menu">
-
-                <div><a class="text-menu" href="index.html"><img class="logo" src="../Imagens/logo.webp" alt="Logo da plataforma"></a></div>
+                <div>
+                    <a class="text-menu" href="index.html"><img class="logo" src="../Imagens/logo.webp" alt="Logo da plataforma"></a>
+                </div>
     
                 <div>
                     <ul class="menu-nav">
@@ -134,7 +135,7 @@
                 <p>10 cursos completos e alunos de todo o Brasil aprendendo diariamente</p>
             </section>
 
-            <div class="container">
+            <section class="container">
                 <div class="content-a">
                     <input type="radio" name="slide" id="slide1" style="display: none;"  checked />
                     <input type="radio" name="slide" id="slide2"  style="display: none;" />
@@ -147,20 +148,18 @@
                             </div>
                         </div>
                     </section>
+
                     <section class="depoimentos slide-index ">
                         <div class="dep-item-1">
                             <div class="dep-text">
-                                <p>"aaa muito e de maneira rápida, realizei os projetos propostos e alavanquei minha carreira e meus estudos. Só tenho a agradecer a toda a equipe da Push Tech por tornar isso possível!"<hr><em>Luisa P. Alves<br>Desenvolvedora Front-end</em></p>
+                                <p>"Aprendi muito e de maneira rápida, realizei os projetos propostos e alavanquei minha carreira e meus estudos. Só tenho a agradecer a toda a equipe da Push Tech por tornar isso possível!"<hr><em>José P. Souza<br>Desenvolvedor Back-end</em></p>
                                 <img src="../Imagens/man.png" alt="Imagem-da-pessoa.empresa">
                             </div>
                         </div>
                     </section>
                 </div>
-            </div>
-            
+            </section>
         </article>
-
-
 
         <article class="incentivo">
             <section>
@@ -211,34 +210,36 @@
                 <img src="../Imagens/microsoft-banner.webp" alt="Banner-microsoftMicrosoft">
             </section>
             <div class="button-banner">
-            <button class="button-cursos-banner" onclick="expandir()">Quero ser um apoiador</button>
+                <button class="button-cursos-banner" onclick="expandir()">Quero ser um apoiador</button>
             </div>
-        </article>
 
+            <section>
+                <div id="fade" class="hide"></div>
+                <div id="modal" class="hide">
+                    <section>
+                        <div class="modal_header">
+                            <h2 id="texto_modal">Digite Seus Dados</h2>
+                        </div>
+                        <div class="modal_body">
+                            <form class="form-footer">
+                                <div>
+                                    <label for="name">Nome</label>
+                                    <input type="text" id="name" placeholder="Digite seu nome..." name="nome" maxlength="30" required>
+                                </div>
+                                <div>
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" placeholder="Digite seu e-mail..." name="e-mail" maxlength="50" required>
+                                </div>
+                                <div class="modal_buttom">
+                                    <button  id="close_modal" onclick="close_modal()">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                 </div>
+            </section>
+        </article>
     </main>
-    
-    <div id="fade" class="hide"></div>
-    <div id="modal" class="hide">
-        <div class="modal_header">
-            <h2 id="texto_modal">Digite Seus Dados</h2>
-        </div>
-        <div class="modal_body">
-            <form class="form-footer">
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" placeholder="Digite seu nome..." name="nome" maxlength="30" required>
-                </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="Digite seu e-mail..." name="e-mail" maxlength="50" required>
-                </div>
-                <div class="modal_buttom">
-                    <button  id="close_modal" onclick="close_modal()">Enviar</button>
-                </div>
-            </form>
-        </div>
-        </div>
-    </div>
 
     <footer class="footer">
 
