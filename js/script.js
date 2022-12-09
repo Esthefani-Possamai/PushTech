@@ -8,6 +8,19 @@ var area = document.querySelector('#area');
 const texto = document.querySelector('#texto_modal');
 const texto_modal_body = document.querySelector("#texto_modal_body");
 
+//expandir
+
+var secao = document.querySelector('.cursos-op2') 
+var button = document.querySelector('.button-form') 
+
+
+function expand() {
+    console.log(secao, button);
+    secao.style.display = "flex";
+    button.style.display = "none"
+}
+
+
 // Abrir Modal
 
 function modal_open(){
@@ -56,18 +69,6 @@ function close_modal(){
     fade.style.display = "none";
 }
 
-//expandir
-
-    var secao = document.querySelector('.cursos-op2') 
-    var button = document.querySelector('.button-form') 
-    
-    
-    function expand() {
-        console.log(secao, button);
-        secao.style.display = "flex";
-        button.style.display = "none"
-    }
-
 
 //mascara de fone
 
@@ -106,4 +107,4 @@ function mascara_fone() {
     if (contador > 2) {
       contador = 1;
     }
-  }, 4000);
+  }, 3000);
