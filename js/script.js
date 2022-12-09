@@ -8,6 +8,8 @@ var area = document.querySelector('#area');
 const texto = document.querySelector('#texto_modal');
 const texto_modal_body = document.querySelector("#texto_modal_body");
 
+// Abrir Modal
+
 function modal_open(){
   let nome_obrig = document.querySelector('#obri-nome');
   let email_obrig = document.querySelector('#obri-email');
@@ -41,6 +43,12 @@ function modal_open(){
 
     }
 }
+
+//fechar modal
+
+fade.addEventListener("click", (event) => {
+	close_modal();
+});
 
 function close_modal(){
 
