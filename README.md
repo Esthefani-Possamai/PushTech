@@ -1,6 +1,6 @@
 # 🚀 PushTech 
 
-Intitulado de PushTech, o projeto desenvolvido na disciplina de Desenvolimento de aplicações WEB I conta com uma Landing page, página de cadastro e página de divulgação de cursos.
+Intitulado de PushTech, o projeto desenvolvido na disciplina de Desenvolvimento de aplicações WEB I conta com uma Landing page, página de cadastro e página de divulgação de cursos.
 
 # 📍 Sobre
 Impulse seu conhecimento no mundo tech_
